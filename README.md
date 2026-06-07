@@ -1,4 +1,5 @@
 
+
 # Car Price Prediction
 
 This repository explores used car price prediction across two distinct datasets (300 rows and 8,000+ rows). It compares traditional linear models against advanced tree-based ensembles and Optuna-based hyperparameter optimization.
@@ -21,7 +22,7 @@ This project focuses on maximizing prediction accuracy using tree-based ensemble
 * XGBoost Regression
 * Optuna Hyperparameter Optimization
 
-### 📊 Model Performance
+### Model Performance
 
 | Metric       | Random Forest | Basic XGBoost | Optuna-Tuned XGBoost |
 | ------------ | ------------: | ------------: | -------------------: |
@@ -46,8 +47,7 @@ A foundational machine learning project applying standard linear regression tech
 | Linear Regression |   0.8468 | 1.2217 |
 | Lasso Regression  |   0.8468 | 1.2217 |
 
-> 📈 Both models achieved identical performance, indicating minimal impact from L1 regularization on this dataset.
-
+>  Although both models achieved identical R² and MAE values, Lasso Regression generated predictions that were marginally closer to the actual values in certain cases. Overall, the effect of L1 regularization on model performance was negligible.
 ---
 
 ## Requirements

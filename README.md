@@ -1,3 +1,4 @@
+
 # Car Price Prediction
 
 This repository explores used car price prediction across two distinct datasets (300 rows and 8,000+ rows). It compares traditional linear models against advanced tree-based ensembles and Optuna-based hyperparameter optimization.
@@ -56,9 +57,3 @@ Install all required dependencies using the provided `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 
-##  Key Results
-
-* Achieved **98.12% R² Score** using Optuna-Tuned XGBoost.
-* Demonstrated the effectiveness of automated hyperparameter optimization.
-* Compared baseline linear models with advanced ensemble learning approaches.
-* Evaluated performance across datasets of significantly different sizes and complexities.
